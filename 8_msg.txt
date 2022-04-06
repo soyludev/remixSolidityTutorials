@@ -1,0 +1,28 @@
+/* notes about 'msg'
+
+
+msg.data =  An unlimited size byte array specifying the input data of message call 
+
+"0x5b4b73......00000011"
+
+- the function it needs to call
+- the arguments for the function
+
+#########
+
+
+msg.sig  = byte array specifying the signature of the function being called
+
+
+#########
+
+msg.value = value that is sent
+
+########
+
+msg.sender = returns the address of the sender
+
+best way ******> tx.origin 
+
+
+*/
